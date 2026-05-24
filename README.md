@@ -10,7 +10,7 @@ Created by **Jojo & Antigravity Coding Assistant (DeepMind)**.
 
 Getting started is extremely simple and requires **no coding, no Python, and no installations**!
 
-### **[👉 Click Here to Download KeyTap (KeyTap_Shareable.zip) 👈](https://github.com/SEEHIGHxb/KeyTap-audio-keyboard/raw/main/KeyTap_Shareable.zip)**
+### **[👉 Click Here to Download KeyTap (KeyTap_Download.zip) 👈](https://github.com/SEEHIGHxb/KeyTap-audio-keyboard/raw/main/KeyTap_Download.zip)**
 
 1. **Extract the downloaded ZIP folder.**
 2. **Double-click `KeyTap.exe`** to launch the control dashboard.
