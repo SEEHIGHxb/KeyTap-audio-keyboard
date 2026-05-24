@@ -1,0 +1,11 @@
+# PyInstaller builds and specs
+build/
+dist/
+*.spec
+
+# Python caching
+__pycache__/
+*.pyc
+
+# Local app configuration cache (optional to push, but usually ignored for users)
+config.json
