@@ -1,5 +1,9 @@
 # KeyTap - The Chaos Sound Keyboard 🎹🔊
 
+<p align="center">
+  <img src="keytap_logo.png" alt="KeyTap Logo" width="180" style="border-radius: 16px;"/>
+</p>
+
 A premium, system-wide keypress audio feedback utility featuring zero-latency polyphonic playback and a gorgeous, interactive 30 FPS vector graphics dashboard widget.
 
 Created by **Jojo & Antigravity Coding Assistant (DeepMind)**.

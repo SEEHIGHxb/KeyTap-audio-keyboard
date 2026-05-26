@@ -392,6 +392,18 @@ class AudioKeyboardApp(ctk.CTk):
         self.geometry(WINDOW_SIZE)
         self.resizable(False, False)
 
+        # Configure window icon
+        try:
+            if getattr(sys, 'frozen', False):
+                base_dir = os.path.dirname(sys.executable)
+            else:
+                base_dir = os.path.dirname(os.path.abspath(__file__))
+            icon_path = os.path.join(base_dir, "keytap_logo.ico")
+            if os.path.exists(icon_path):
+                self.iconbitmap(icon_path)
+        except Exception:
+            pass
+
         self.grid_columnconfigure(0, weight=1)
         self.grid_rowconfigure(0, weight=0) # Header
         self.grid_rowconfigure(1, weight=0) # Stats
