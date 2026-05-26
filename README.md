@@ -8,13 +8,19 @@ Created by **Jojo & Antigravity Coding Assistant (DeepMind)**.
 
 ## 🚀 Download & Quick Start (For General Users)
 
-Getting started is extremely simple and requires **no coding, no Python, and no installations**!
+Getting started is extremely simple and self-contained!
 
-### **[👉 Click Here to Download KeyTap (KeyTap_Download.zip) 👈](https://github.com/SEEHIGHxb/KeyTap-audio-keyboard/raw/main/KeyTap_Download.zip)**
+### **🖥️ Windows Users:**
+* **[👉 Click Here to Download KeyTap for Windows (KeyTap_Download.zip) 👈](https://github.com/SEEHIGHxb/KeyTap-audio-keyboard/raw/main/KeyTap_Download.zip)**
+* **Instructions:** Extract the ZIP, double-click **`KeyTap.exe`**, and start typing! *(No Python setup required!)*
 
-1. **Extract the downloaded ZIP folder.**
-2. **Double-click `KeyTap.exe`** to launch the control dashboard.
-3. Open any text editor, web browser, document, or game, and **start typing!** You will instantly hear highly satisfying mechanical thocks or typewriter key clicks overlapping polyphonically as you type.
+### **🍎 macOS Users:**
+* **[👉 Click Here to Download KeyTap for macOS (KeyTap_macOS_Download.zip) 👈](https://github.com/SEEHIGHxb/KeyTap-audio-keyboard/raw/main/KeyTap_macOS_Download.zip)**
+* **Instructions:**
+  1. Extract the ZIP folder.
+  2. Double-click the **`KeyTap_macOS.command`** loader script in Finder. This will open Terminal and automatically verify your python setup, install necessary libraries, and launch the KeyTap GUI dashboard!
+  3. *Permissions Fix:* If Finder displays an execution error, open terminal in the folder and run: `chmod +x KeyTap_macOS.command`
+  4. 🔒 **macOS Privacy Access Requirement:** To intercept keypresses system-wide in the background, macOS strictly requires you to grant Input Monitoring permissions to the Terminal. Go to: *System Settings ➡️ Privacy & Security ➡️ Input Monitoring* and ensure **Terminal** is enabled!
 
 ---
 
